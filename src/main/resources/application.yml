@@ -1,0 +1,10 @@
+graphql:
+  servlet:
+    mapping: /graphql
+    enabled: true
+    corsEnabled: true
+
+spring:
+  data:
+  mongodb:
+  uri: 'mongodb://localhost:27017/book?retryWrites=true&w=majority'
